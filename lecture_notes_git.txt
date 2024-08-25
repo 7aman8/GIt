@@ -3,6 +3,11 @@ This will have the steps of (git) or what I have understood from using (git)
 Git: is a CL version control, it is where you can -keep changes in code
                                                   -sync code between computers
 
+Steps:-
+1. use (git add file_name)
+2. use (git commit) => to save changes
+3. use (git commit -m "add a message") <- necessary
+4. use (git push) to get and add the changes to [github]
 
 Git controls/CL :-
 
@@ -15,3 +20,7 @@ Git controls/CL :-
     - this will save a snapshot of the current code, so i can also got to certain snapshots(code versions)
 
 * git status => will tell us what's currently happening to our code
+* git push => will put it into [github]
+
+            Short cut to --> git commit -m "message" and git add
+* git commit -am "message" => this will commit to github and select all the files while also providing a message
