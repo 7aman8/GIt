@@ -44,3 +44,6 @@ Git controls/CL :-
 * git checkout -b new_branch_name => this will create a new branch to work on
 * git checkout branch_name => to switch branches 
 * git merge branch_name_to_main-branch => this will merge the branch and the main_branch together
+
+
+** You can also deploy your github repo using [github pages] -> learn later
