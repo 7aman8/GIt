@@ -36,3 +36,11 @@ Git controls/CL :-
 * git reset => this will reset everything[from scratch]
     * git reset --hard commit_hash_num => this will return to certain log_hash_num
     * git reset --hard github_repo => this will reset to the current [github] version
+
+    Conflicts: it is when you and your friend changed the same line of code
+
+        Branches : when you want to work on something but you do not want to disturb the current verison of the code
+* git branch => will tell what branch you're on, and tell the existing current branches available
+* git checkout -b new_branch_name => this will create a new branch to work on
+* git checkout branch_name => to switch branches 
+* git merge branch_name_to_main-branch => this will merge the branch and the main_branch together
