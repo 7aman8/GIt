@@ -13,6 +13,7 @@ Git controls/CL :-
 
 * git clone repository_url => this will clone the repository(flike_older that contains source_code) and gives you access to the code
 * git add file_name => will keep track of changes to code
+    to add all_files --> git add --all
 
     Commits(changes in code) and saving changes to code :
 * git commit => saving a snapshot(time-line changes) of the repository --> this keeps track of the changes that happened to [git add file_name]
@@ -20,7 +21,9 @@ Git controls/CL :-
     - this will save a snapshot of the current code, so i can also got to certain snapshots(code versions)
 
 * git status => will tell us what's currently happening to our code
-* git push => will put it into [github]
+* git push => will put/push it into [github]
+* git pull => this is will take all the changes in [github] that you dont have and put them into your current repository(snapshot)
+    - your local repository will have all the changes from [github]
 
             Short cut to --> git commit -m "message" and git add
 * git commit -am "message" => this will commit to github and select all the files while also providing a message
