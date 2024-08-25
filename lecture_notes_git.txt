@@ -1,0 +1,17 @@
+This will have the steps of (git) or what I have understood from using (git)
+
+Git: is a CL version control, it is where you can -keep changes in code
+                                                  -sync code between computers
+
+
+Git controls/CL :-
+
+* git clone repository_url => this will clone the repository(flike_older that contains source_code) and gives you access to the code
+* git add file_name => will keep track of changes to code
+
+    Commits(changes in code) and saving changes to code :
+* git commit => saving a snapshot(time-line changes) of the repository --> this keeps track of the changes that happened to [git add file_name]
+* git commit -m "your_description" => adding a message to what you made/changes to the code
+    - this will save a snapshot of the current code, so i can also got to certain snapshots(code versions)
+
+* git status => will tell us what's currently happening to our code
