@@ -27,3 +27,12 @@ Git controls/CL :-
 
             Short cut to --> git commit -m "message" and git add
 * git commit -am "message" => this will commit to github and select all the files while also providing a message
+
+    To see changes and who made them :
+* git log => will tell you who made the changes, the message, and the (date and time) of the changes
+    additional --> git config --global user.name/email "adding_your name/email" 
+
+    Going back to certain changes/commits :
+* git reset => this will reset everything[from scratch]
+    * git reset --hard commit_hash_num => this will return to certain log_hash_num
+    * git reset --hard github_repo => this will reset to the current [github] version
